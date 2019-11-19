@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="password" value="lab1"/>
+  <parameter name="browser" value="ChromeDriver"/>
+  <parameter name="username" value="qaplanet1"/>
+  <test name="Default test(failed)">
+    <parameter name="password" value="lab1"/>
+    <parameter name="browser" value="ChromeDriver"/>
+    <parameter name="username" value="qaplanet1"/>
+    <classes>
+      <class name="com.google.HomePage.CrossBrowser">
+        <methods>
+          <include name="cbr" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.google.HomePage.CrossBrowser -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
